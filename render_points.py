@@ -23,7 +23,7 @@ def render(xml_path):
     scene = mi.load_file(xml_path)
     image = mi.render(scene)
     # mi.Bitmap(image).write(xml_path.replace('_.xml', '.exr'))
-    mi.util.write_bitmap(xml_path.replace('_.xml', '.png'), image)
+    mi.util.write_bitmap(xml_path.replace('.xml', '.png'), image)
     os.remove(xml_path)
 
 
@@ -94,4 +94,4 @@ if __name__ == "__main__":
         os.mkdir(args.workdir)
     
     mae_root = os.path.join(args.root, "test_")
-    paint_point_cloud(mae_root, "test_", args)
+    paint_point_cloud(mae_root, "test", args)
