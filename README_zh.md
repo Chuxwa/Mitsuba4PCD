@@ -2,7 +2,7 @@
 
 **Mitsuba4PCD** 是一个基于 Python 和 Mitsuba 的点云渲染工具，利用 Mitsuba 丰富的功能来渲染虚拟点云场景。注意：Mitsuba 0.6 适用于 CPU 渲染，而 Mitsuba 3.0 适用于 GPU 渲染。
 
-[![观看视频](doc/test.png)](doc/test.mp4)
+[![观看视频](doc/test.gif)](doc/test.gif)
 
 ## 功能特性
 

@@ -1,7 +1,7 @@
 # Mitsuba4PCD
 **Mitsuba4PCD** is a point cloud rendering tool based on Python and Mitsuba, you can use Mitsuba's rich features to render virtual point cloud scenes. Note: Mitsuba 0.6 is suitable for CPU rendering and Mitsuba 3.0 is suitable for GPU rendering.
 
-[![Watch the video](doc/test.png)](doc/test.mp4)
+[![Watch the video](doc/test.gif)](doc/test.gif)
 
 ## Features
 
